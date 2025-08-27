@@ -23,8 +23,9 @@ function Setting() {
 
   return (
     <div className="flex-1 p-7 overflow-y-auto">
-      <h2 className="text-2xl font-bold mb-6">Setting - 카드 등록</h2>
+      <h2 className="text-2xl font-bold mb-6">알람 카드 등록</h2>
       <form onSubmit={handleSubmit} className="max-w-md">
+        <div></div>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2">
             카드 제목

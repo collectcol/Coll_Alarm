@@ -9,6 +9,7 @@ import Footer from "./components/common/Footer";
 import LeftNavItems from "./components/const/LeftNavItems";
 import RightNavItems from "./components/const/RightNavItems";
 import SideNavigation from "./components/common/SideNavigation";
+import RefInfo from "./components/pages/RefInfo";
 
 function App() {
   const [activeTab, setActiveTab] = useState("board");
@@ -23,6 +24,8 @@ function App() {
         return <Setting />;
       case "interlock":
         return <Interlock />;
+      case "refInfo":
+        return <RefInfo />;
       default:
         return <Dashboard />;
     }
